@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class SelectComponent {
   username: string = '';
   period: string = 'overall';
+
+  onSubmit() {
+    console.log(this.username);
+    console.log(this.period);
+    
+  }
 }
