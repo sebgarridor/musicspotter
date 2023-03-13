@@ -1,0 +1,18 @@
+<div class="container">
+    <form (ngSubmit)="onSubmit()">
+      <label for="username">username</label>
+      <input id="username" name="username" placeholder="enter your username" [(ngModel)]="username" />
+  
+      <label for="period">time period</label>
+      <select id="period" name="period" [(ngModel)]="period">
+        <option value="overall">overall</option>
+        <option value="7day">seven days</option>
+        <option value="1month">one month</option>
+        <option value="3month">three months</option>
+        <option value="6month">six months</option>
+        <option value="12month">last year</option>
+      </select>
+  
+      <button type="submit">go!</button>
+    </form>
+  </div>
