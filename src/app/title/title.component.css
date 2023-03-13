@@ -3,7 +3,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 31px;
   text-align: center;
   margin-top: 3rem;
@@ -14,4 +14,5 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }/*# sourceMappingURL=title.component.css.map */
