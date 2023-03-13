@@ -11,6 +11,15 @@ $montserrat: "Montserrat", sans-serif;
     font-family: $montserrat;
     margin-top: 2rem;
     gap: 1rem;
+    font-weight: 400;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
 
     label {
         margin-bottom: 0.2rem;
@@ -26,9 +35,12 @@ $montserrat: "Montserrat", sans-serif;
         padding: 0.1rem 0rem;
     }
 
-    select:focus {
-        min-width: 150px;
-        width: auto;
+
+    button {
+        background-color: white;
+        border: 1px solid #000000;
+        padding: 0.1rem 0rem;
+        width: 3rem;
     }
 
 }
