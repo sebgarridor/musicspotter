@@ -14,22 +14,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .container label {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
+  font-family: "Montserrat", sans-serif;
 }
 .container input {
   width: 10rem;
-  padding: 0.1rem 0rem;
+  padding: 0.1rem 0.3rem;
+  font-family: "Montserrat", sans-serif;
 }
 .container select {
   width: 10rem;
-  padding: 0.1rem 0rem;
+  padding: 0.1rem 0.3rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
 }
 .container button {
   background-color: white;
   border: 1px solid #000000;
   padding: 0.1rem 0rem;
   width: 3rem;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=select.component.css.map */

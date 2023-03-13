@@ -18,21 +18,26 @@ $montserrat: "Montserrat", sans-serif;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
+
     }
 
     label {
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.1rem;
+        font-family: $montserrat;
     }
 
     input {
         width: 10rem;
-        padding: 0.1rem 0rem;
+        padding: 0.1rem 0.3rem;
+        font-family: $montserrat;
     }
 
     select {
         width: 10rem;
-        padding: 0.1rem 0rem;
+        padding: 0.1rem 0.3rem;
+        font-family: $montserrat;
+        background-color: white;
     }
 
 
@@ -41,6 +46,7 @@ $montserrat: "Montserrat", sans-serif;
         border: 1px solid #000000;
         padding: 0.1rem 0rem;
         width: 3rem;
+        font-family: $montserrat;
     }
 
 }
