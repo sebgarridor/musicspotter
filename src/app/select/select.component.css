@@ -37,4 +37,8 @@
   padding: 0.1rem 0rem;
   width: 3rem;
   font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-color: black;
 }/*# sourceMappingURL=select.component.css.map */
